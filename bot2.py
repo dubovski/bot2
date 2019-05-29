@@ -15,7 +15,7 @@ def main():
 			if z >= 14:
 				answer += "Nafig Kurtku"
 			else:
-				answer += "Naden Kurtku"
+				answer += "Naden Kurtku11"
 
 			bot.send_message(message.chat.id, answer)
 		except pyowm.exceptions.api_response_error.NotFoundError:
