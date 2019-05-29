@@ -13,7 +13,7 @@ def main():
 			z = w.get_temperature('celsius')["temp"]
 			answer = "V gorode  " + str(message.text) + " seichas  " + str(z) + "  gradusov  " + "\n\n"
 			if z >= 14:
-				answer += "Nafig Kurtku"
+				answer += "Nafig Kurtku22"
 			else:
 				answer += "Naden Kurtku11"
 
